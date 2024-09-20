@@ -62,6 +62,15 @@
   <li><strong>RadarPoint</strong> (Prefab, тип Square): Префаб для відображення цілей на радарі у вигляді точок.</li>
 </ul>
 
+<p align="center">
+  <img src="Screenshots/7.jpg" alt="Ієрархія об'єктів"/>
+</p>
+<p align="center">
+    Рисунок 7: Ієрархія об'єктів
+</p>
+
+<br><br>
+
 <strong>Рисунок 8: Скрипти</strong>
 <p>На кожен з об'єктів були додані відповідні скрипти:</p>
 <ul>
@@ -73,8 +82,25 @@
   <li><strong>CircleDrawer</strong> – відповідає за малювання кіл для позначення меж радіуса дії радара.</li>
 </ul>
 
+<p align="center">
+  <img src="Screenshots/8.jpg" alt="Скрипти"/>
+</p>
+<p align="center">
+    Рисунок 8: Скрипти
+</p>
+
+<br><br>
+
 <strong>Рисунок 9: Префаб точки</strong>
 <p>Префаб <strong>RadarPoint</strong> використовується для відображення виявлених радаром цілей у вигляді точок на графіку. На цей префаб додано скрипт <strong>RadarPointLifeCycle</strong>, який керує часом життя кожної точки, її прозорістю та зникненням.</p>
+
+<p align="center">
+  <img src="Screenshots/9.jpg" alt="Префаб точки"/>
+</p>
+<p align="center">
+    Рисунок 9: Префаб точки
+</p>
+
 
 <h2>Опис скриптів</h2>
 
